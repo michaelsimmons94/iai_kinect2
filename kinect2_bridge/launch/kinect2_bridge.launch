@@ -110,6 +110,6 @@
     <remap from="depth_registered/points"     to="$(arg base_name)/hd/points"/>
     <param name="queue_size" type="int" value="$(arg queue_size)"/>
   </node>
-  <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args=".04 -.09 .3  -0.6123725 0.6123725 -0.3535533 0.3535533 head head_kinect2_rgb_optical_frame 1000" />
+  <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args=".06 -.11 .29  -0.6830127  0.6830127 -0.1830127  0.1830127 head head_kinect2_rgb_optical_frame 1000" />
   <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="0 0 0 0 0 0 1 head_kinect2_rgb_optical_frame kinect2_link 1000" />
 </launch>
